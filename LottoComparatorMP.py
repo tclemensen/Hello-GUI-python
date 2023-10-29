@@ -46,7 +46,7 @@ def print_results(x_total, y_total):
 
 if __name__ == "__main__":
     try:
-        num_simulations = 4000000
+        num_simulations = 40000000
         num_processes = cpu_count()  # This will use all available CPU Cores. You can adjust the number of processes as needed
 
         # Use a Manager to share results across processes

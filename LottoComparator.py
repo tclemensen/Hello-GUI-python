@@ -25,7 +25,7 @@ def areArraysIdentical(array1,array2):
 x=0
 y=0
 
-for i in range(10000000):
+for i in range(1000000):
     lottoNumbersDraw=rndNums(7,1,32)
     lottoNumbersPlay=rndNums(7,1,32)
 
