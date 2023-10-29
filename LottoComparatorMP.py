@@ -13,6 +13,7 @@ def rndNums(size, min_value, max_value):
     array.sort()
     return array
 
+
 def areArraysIdentical(array1, array2):
     if len(array1) != len(array2):
         return False
